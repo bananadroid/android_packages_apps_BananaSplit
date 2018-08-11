@@ -24,4 +24,12 @@
     <string name="bananasplit_dialog_message">If you have any issues, just report to us. Thank you!y</string>
     <string name="bananasplit_dialog_toast">Welcome Bananas!</string>
 
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Shut off pixels to reduce power consumption</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Use Smart Pixels when battery saver is enabled</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift">Prevent burn-in by shifting pixels every</string>
+
 </resources>
