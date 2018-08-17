@@ -23,6 +23,8 @@
     <string name="misc_category">Misc</string>
     <string name="privacy_category">Privacy</string>
 
+    <string name="buttons_software_category">Software buttons</string>
+
     <!-- Dialog -->
     <string name="bananasplit_dialog_title">We are not perfect</string>
     <string name="bananasplit_dialog_message">If you have any issues, just report to us. Thank you!y</string>
@@ -73,4 +75,11 @@
     <string name="aggressive_standby_summary">Restrict apps from running the background</string>
     <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
     <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+
+    <!-- SystemUI Tuner -->
+    <string name="status_bar_tuner_title">Status bar items</string>
+    <string name="status_bar_tuner_summary">Edit status bar icons and options</string>
+    <string name="lock_screen_shortcuts_title">Lock screen shortcuts</string>
+    <string name="lock_screen_shortcuts_summary">Manage lock screen bottom shortcuts</string>
+
 </resources>
