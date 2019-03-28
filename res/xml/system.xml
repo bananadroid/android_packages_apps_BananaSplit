@@ -28,6 +28,12 @@
         android:fragment="com.bananadroid.bananasplit.fragments.system.SmartPixels" />
 
     <Preference
+        android:key="aggressive_battery"
+        android:title="@string/aggressive_battery_title"
+        android:summary="@string/aggressive_battery_summary"
+        android:fragment="com.bananadroid.bananasplit.fragments.system.AggressiveBattery" />
+
+    <Preference
         android:key="global_actions"
         android:title="@string/global_actions_title"
         android:summary="@string/global_actions_summary"
