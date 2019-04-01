@@ -78,23 +78,8 @@ public class BananaSplit extends SettingsPreferenceFragment implements Indexable
     }
 
     @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-    }
-
-    @Override
-    public void onSaveInstanceState(Bundle saveState) {
-        super.onSaveInstanceState(saveState);
-    }
-
-    @Override
     public int getMetricsCategory() {
         return MetricsEvent.BANANASPLIT;
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
     }
 
     @Override
@@ -102,6 +87,7 @@ public class BananaSplit extends SettingsPreferenceFragment implements Indexable
         menu.add(0, MENU_HELP, 0, R.string.bananasplit_dialog_title)
                 .setIcon(R.drawable.ic_bananasplit_info)
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+        super.onCreateOptionsMenu(menu, inflater);
     }
 
     @Override
@@ -114,7 +100,7 @@ public class BananaSplit extends SettingsPreferenceFragment implements Indexable
                 Toast.LENGTH_LONG).show();
                 return true;
             default:
-                return false;
+                return super.onOptionsItemSelected(item);
         }
     }
 
